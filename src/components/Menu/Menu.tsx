@@ -18,7 +18,7 @@ export default function Menu() {
         className={styles.menu_items}
         style={{ left: isMenuOpen ? 0 : "-100%", transition: ".5s" }}
       >
-        <p onClick={(e) => setIsMenuOpen(!isMenuOpen)}>
+        <p className={styles.menu_close} onClick={(e) => setIsMenuOpen(!isMenuOpen)}>
           close
         </p>
         {MenuItems.map((item) => {

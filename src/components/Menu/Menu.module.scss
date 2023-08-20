@@ -45,9 +45,13 @@
 
     border-bottom: 1px solid $purple;
 
-    #menu_button{
-        display: none;
+    #menu_button {
+      display: none;
     }
+
+    .menu_close {
+        display: none;
+      }
 
     .menu_items {
       display: flex;
