@@ -9,18 +9,28 @@ export default function Menu() {
 
   return (
     <div className={styles.menu_wrapper}>
-      <p id={styles.menu_button} onClick={(e) => setIsMenuOpen(!isMenuOpen)}>
-        menu
-      </p>
-      <img src="logo.svg" />
+      <img
+        src="icons/menus.svg"
+        id={styles.menu_button}
+        onClick={(e) => setIsMenuOpen(!isMenuOpen)}
+      />
+      <img src="logo.svg" id={styles.menu_logo} />
+
+      <img
+        src="icons/menus.svg"
+        id={styles.menu_hidden}
+      />
 
       <div
         className={styles.menu_items}
         style={{ left: isMenuOpen ? 0 : "-100%", transition: ".5s" }}
       >
-        <p className={styles.menu_close} onClick={(e) => setIsMenuOpen(!isMenuOpen)}>
-          close
-        </p>
+        <img
+          src="icons/cross.svg"
+          className={styles.menu_close}
+          onClick={(e) => setIsMenuOpen(!isMenuOpen)}
+        />
+
         {MenuItems.map((item) => {
           return <Link href={item.url}>{item.name}</Link>;
         })}
