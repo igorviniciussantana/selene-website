@@ -32,7 +32,7 @@ export default function Menu() {
         />
 
         {MenuItems.map((item) => {
-          return <Link href={item.url}>{item.name}</Link>;
+          return <Link href={item.url} key={item.url}>{item.name}</Link>;
         })}
       </div>
     </div>
