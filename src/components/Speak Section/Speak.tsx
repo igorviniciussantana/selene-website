@@ -9,11 +9,11 @@ export default function Speak() {
     <div className={styles.speak_wrapper}>
       <div className={styles.speak_content}>
         <p className={styles.speak_text}>
-          "O trabalho da equipe de desenvolvimento de software superou nossas
+          &ldquo;O trabalho da equipe de desenvolvimento de software superou nossas
           expectativas. Eles entenderam completamente nossas necessidades e
           criaram uma solução personalizada que aumentou nossa eficiência
           operacional e melhorou a experiência dos nossos clientes. Recomendamos
-          fortemente seus serviços!"
+          fortemente seus serviços!&quot;
         </p>
 
         <p className={styles.speak_author}>- Cliente Satisfeito</p>
