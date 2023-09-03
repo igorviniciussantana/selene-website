@@ -40,5 +40,21 @@
         }
       }
     }
+
+    .primary_button {
+      width: fit-content;
+      align-self: center;
+      padding: 1.5rem 2rem;
+      margin-top: 2rem;
+      border-radius: 0.5rem;
+      border: none;
+      cursor: pointer;
+      transition: .5s;
+
+      &:hover {
+        transition: .5s;
+        transform: scale(1.03);
+      }
+    }
   }
 }

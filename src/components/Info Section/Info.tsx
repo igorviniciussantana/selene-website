@@ -56,7 +56,13 @@ export default function Info() {
             Suporte técnico contínuo para garantir o sucesso a longo prazo
           </span>
         </div>
+       
       </div>
+      <button
+          className={`${styles.primary_button} ${space_grotesk.className}`}
+        >
+          Transforme suas ideias em realidade hoje mesmo!
+        </button>
     </div>
   );
 }
