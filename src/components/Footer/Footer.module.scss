@@ -1,0 +1,57 @@
+@import "@/styles/variables.scss";
+
+@media screen and (max-width: 414px) {
+    .footer_wrapper {
+        min-height: 30vh;
+        background-color: $dark;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    
+        .footer_copyright{
+            color: $light;
+            padding: 1rem;
+            font-size: 0.75rem;
+            width: 100%;
+            text-align: center;
+            border-top: 1px solid $light;
+        }
+    
+        .footer_logo{
+            width: 80%;
+            align-self: flex-start;
+            margin: auto ;
+            
+        }
+      }
+}
+@media screen and (min-width: 414px) and (max-width: 920px) {
+}
+
+@media screen and (min-width: 920px) {
+  .footer_wrapper {
+    min-height: 30vh;
+    background-color: $dark;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    .footer_copyright{
+        color: $light;
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid $light;
+    }
+
+    .footer_logo{
+        width: 25rem;
+        align-self: flex-start;
+        margin: auto 0;
+        margin-left: 6rem;
+        
+    }
+  }
+}

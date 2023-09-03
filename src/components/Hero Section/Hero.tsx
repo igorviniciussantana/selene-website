@@ -38,6 +38,7 @@ export default function Hero() {
           Entre em contato para uma consulta gratuita.
         </button>
       </div>
+      <img src="hero-img.png" alt="Imagens de desenvolvimento de tecnologia" className={styles.hero_img}/>
     </div>
   );
 }

@@ -3,6 +3,7 @@ import Image from 'next/image'
 
 import type { Metadata } from 'next'
 import Info from '@/components/Info Section/Info'
+import Speak from '@/components/Speak Section/Speak'
 export const metadata: Metadata = {
   title: 'Página Inicial - Selene Tecnologia',
   description: 'Página Inicial Selene',
@@ -15,6 +16,7 @@ export default function Home() {
     <main>
     <Hero />
     <Info />
+    <Speak />
     </main>
   )
 }
