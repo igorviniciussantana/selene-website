@@ -88,7 +88,7 @@
 @media screen and (min-width: 920px) {
   .hero_wrapper {
     padding: 1rem 6rem;
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
     align-items: center;
 
