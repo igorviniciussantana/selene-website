@@ -73,7 +73,7 @@ export default function Info() {
 
          
 
-          <span className={styles.list_item}>
+          <span className={styles.list_item} >
             <CheckCircle
               color="#7A32C6"
               weight="fill"
