@@ -91,6 +91,7 @@
     min-height: 90vh;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     .hero_content {
       max-width: 50%;
@@ -155,6 +156,7 @@
 
     .hero_img{
       width: 45%;
+      
     }
   }
 }
