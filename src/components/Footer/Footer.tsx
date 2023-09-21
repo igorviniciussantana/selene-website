@@ -23,9 +23,9 @@ export default function Footer() {
             <ul>
               {MenuItems.map((item) => {
                 return (
-                  <li>
+                  <li key={item.url}>
                     <img src="/next.svg" className={styles.li_icon} />
-                    <Link href={item.url} key={item.url}>
+                    <Link href={item.url}>
                       {item.name}
                     </Link>
                   </li>
