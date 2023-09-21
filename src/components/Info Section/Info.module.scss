@@ -3,7 +3,9 @@
 @media screen and (max-width: 414px) {
   .info_wrapper {
     min-height: 80vh;
-    background-color: $purple;
+    background-image: url("/public/background2.png");
+    background-position: center;
+    background-size: cover;
     padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
@@ -72,7 +74,9 @@
 @media screen and (min-width: 920px) {
   .info_wrapper {
     min-height: 80vh;
-    background-color: $purple;
+    background-image: url("/background2.png");
+    background-position: center;
+    background-size: cover;
     padding: 3rem 6rem;
     display: flex;
     flex-direction: column;
