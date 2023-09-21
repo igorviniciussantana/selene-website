@@ -12,7 +12,7 @@ export default function Hero() {
       <div className={styles.hero_content}>
         <h1 className={styles.hero_title}>
           Transformando Ideias em Realidade: Desenvolvimento de Software e
-          Soluções para Impulsionar seu Negócio
+          Soluções para Impulsionar seu Negócio!
         </h1>
         <h2 className={styles.hero_subtitle} >
           Potencialize sua empresa com soluções de software sob medida e
