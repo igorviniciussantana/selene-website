@@ -2,7 +2,6 @@
 import styles from "./Info.module.scss";
 import { Space_Grotesk } from "next/font/google";
 import { CheckCircle } from "@phosphor-icons/react";
-import { Fade } from "react-awesome-reveal"
 
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
 
@@ -12,18 +11,20 @@ export default function Info() {
 
   return (
     <div className={styles.info_wrapper}>
-      <Fade direction="up" triggerOnce>
-      <h3 className={styles.info_title}>
+     
+      <h3 className={styles.info_title} data-aos="fade-up"
+            data-aos-delay="200" data-aos-once="true">
         Na nossa empresa, acreditamos no <b>poder da tecnologia</b> para
         impulsionar o <b>sucesso dos negócios.</b> Nossas soluções de software
         personalizado são projetadas para atender às suas necessidades
         exclusivas, fornecendo
         <b> eficiência, automação e resultados tangíveis.</b>
       </h3>
-      </Fade>
+      
       <div  className={styles.list_wrapper}>
-      <Fade direction="up" triggerOnce>
-        <div className={styles.info_list}>
+     
+        <div className={styles.info_list} data-aos="fade-up"
+            data-aos-delay="200" data-aos-once="true">
           <span className={styles.list_item}>
             <CheckCircle
               color="#7A32C6"
@@ -55,9 +56,10 @@ export default function Info() {
             Equipe de desenvolvimento altamente qualificada e comprometida
           </span>
         </div>
-        </Fade>
-        <Fade direction="up" delay={100} triggerOnce>
-        <div className={styles.info_list}>
+       
+      
+        <div className={styles.info_list} data-aos="fade-up"
+            data-aos-delay="200" data-aos-once="true">
           <span className={styles.list_item}>
             <CheckCircle
               color="#7A32C6"
@@ -91,11 +93,16 @@ export default function Info() {
             Suporte técnico contínuo para garantir o sucesso a longo prazo
           </span>
         </div>
-        </Fade>
+        
       </div>
-      <button className={`${styles.primary_button} ${space_grotesk.className}`}>
+     
+      <button className={`${styles.primary_button} ${space_grotesk.className}`} data-aos="fade-up"
+            data-aos-delay="200" data-aos-once="true">
+      
         Transforme suas ideias em realidade hoje mesmo!
+        
       </button>
+      
     </div>
   );
 }
