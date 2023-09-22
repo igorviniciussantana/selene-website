@@ -1,19 +1,16 @@
-import Hero from '@/components/Home Page/Hero Section/Hero'
-import Image from 'next/image'
-
-import type { Metadata } from 'next'
+import type { Metadata } from "next";
+import AboutUs from "@/components/About Us Page/About Us/AboutUs";
 
 export const metadata: Metadata = {
-  title: 'Contato - Selene Tecnologia',
-  description: 'Página Inicial Selene',
-  icons: './icon.svg'
-}
+  title: "Sobre Nós - Selene Tecnologia",
+  description: "Página Inicial Selene",
+  icons: "./icon.svg",
+};
 
-
-export default function Contact() {
+export default function About() {
   return (
     <main>
-
+      <AboutUs />
     </main>
-  )
+  );
 }
