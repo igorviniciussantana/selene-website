@@ -1,51 +1,72 @@
 @import "@/styles/variables.scss";
 
 @media screen and (max-width: 414px) {
-    .speak_wrapper {
-        min-width: none;height: 70vh;
-        padding: 2rem ;
-        display: flex;
-        align-items: center;
-    
-        .speak_content {
-       
-    
-          .speak_text{
-            font-size: 1.2rem;
-            text-align: justify;
-            font-weight: 500;
-          }
-    
-          .speak_author{
-            color: $purple;
-            font-size: 1rem;
-            margin-top: 1rem;
-          }
-        }
+  .speak_wrapper {
+    min-width: none;
+    height: 70vh;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+
+    .speak_content {
+      .speak_text {
+        font-size: 1.2rem;
+        text-align: justify;
+        font-weight: 500;
       }
+
+      .speak_author {
+        color: $purple;
+        font-size: 1rem;
+        margin-top: 1rem;
+      }
+    }
+  }
 }
 @media screen and (min-width: 414px) and (max-width: 920px) {
 }
 
 @media screen and (min-width: 920px) {
   .speak_wrapper {
-    min-width: none;height: 70vh;
+    min-width: none;
+    height: 70vh;
     padding: 1rem 6rem;
     display: flex;
     align-items: center;
+    overflow: hidden;
 
     .speak_content {
       width: 50%;
 
-      .speak_text{
+      .speak_text {
         font-size: 1.3rem;
         font-weight: 500;
       }
 
-      .speak_author{
+      .speak_author {
         color: $purple;
         font-size: 1.2rem;
         margin-top: 1rem;
+      }
+    }
+
+    .chat {
+      position: relative;
+      .background_word {
+        color: $purple;
+        font-weight: 900;
+        position: absolute;
+        rotate: -90deg;
+        font-size: 500px;
+        top: -400px;
+        left: -850px;
+
+        -webkit-touch-callout: none; /* iPhone OS, Safari */
+        -webkit-user-select: none; /* Chrome, Safari 3 */
+        -khtml-user-select: none; /* Safari 2 */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* IE10+ */
+        user-select: none;
       }
     }
   }

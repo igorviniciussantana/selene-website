@@ -3,9 +3,8 @@ import "@/styles/globals.scss";
 import { Space_Grotesk } from "next/font/google";
 import Menu from "@/components/Menu/Menu";
 import Footer from "@/components/Footer/Footer";
-import { useEffect } from 'react';
 
-const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
+const space_grtsk = Space_Grotesk({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
@@ -14,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={space_grotesk.className}>
+      <body className={space_grtsk.className}>
         <Menu />
         {children}
         <Footer />

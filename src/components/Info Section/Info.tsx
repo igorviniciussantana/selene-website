@@ -2,12 +2,18 @@
 import styles from "./Info.module.scss";
 import { Space_Grotesk } from "next/font/google";
 import { CheckCircle } from "@phosphor-icons/react";
+import { useRef } from "react";
+import Fade from 'react-reveal/Fade';
 
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export default function Info() {
+
+
+
   return (
     <div className={styles.info_wrapper}>
+      <Fade up>
       <h3 className={styles.info_title}>
         Na nossa empresa, acreditamos no <b>poder da tecnologia</b> para
         impulsionar o <b>sucesso dos negócios.</b> Nossas soluções de software
@@ -15,7 +21,9 @@ export default function Info() {
         exclusivas, fornecendo
         <b> eficiência, automação e resultados tangíveis.</b>
       </h3>
-      <div className={styles.list_wrapper}>
+      </Fade>
+      <div  className={styles.list_wrapper}>
+      <Fade up>
         <div className={styles.info_list}>
           <span className={styles.list_item}>
             <CheckCircle
@@ -48,7 +56,8 @@ export default function Info() {
             Equipe de desenvolvimento altamente qualificada e comprometida
           </span>
         </div>
-
+        </Fade>
+        <Fade up delay={100}>
         <div className={styles.info_list}>
           <span className={styles.list_item}>
             <CheckCircle
@@ -83,6 +92,7 @@ export default function Info() {
             Suporte técnico contínuo para garantir o sucesso a longo prazo
           </span>
         </div>
+        </Fade>
       </div>
       <button className={`${styles.primary_button} ${space_grotesk.className}`}>
         Transforme suas ideias em realidade hoje mesmo!
