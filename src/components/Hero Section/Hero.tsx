@@ -2,7 +2,7 @@
 import Link from "next/link";
 import styles from "./Hero.module.scss";
 import { Space_Grotesk } from "next/font/google";
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal"
 
 
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
@@ -14,14 +14,14 @@ export default function Hero() {
   return (
     <div className={styles.hero_wrapper}>
       <div className={styles.hero_content}>
-      <Fade up>
+      <Fade direction="up" triggerOnce>
         <h1  className={styles.hero_title} >
           Transformando Ideias em Realidade: Desenvolvimento de Software e
           Soluções para Impulsionar seu Negócio!
         </h1>
         </Fade>
 
-        <Fade up delay={200}>
+        <Fade direction="up"  delay={200} triggerOnce>
         <h2 className={styles.hero_subtitle}>
           Potencialize sua empresa com soluções de software sob medida e
           inovadoras
@@ -38,15 +38,13 @@ export default function Hero() {
 
         <button
           className={`${styles.primary_button} ${space_grotesk.className}`}
-          data-aos="fade-up"
-          data-aos-delay="300"
+        
         >
           Transforme suas ideias em realidade hoje mesmo!
         </button>
         <button
           className={`${styles.secondary_button} ${space_grotesk.className}`}
-          data-aos="fade-up"
-          data-aos-delay="400"
+         
         >
           Entre em contato para uma consulta gratuita.
         </button>

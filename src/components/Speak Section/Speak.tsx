@@ -1,7 +1,7 @@
 "use client";
 import styles from "./Speak.module.scss";
 import { Space_Grotesk } from "next/font/google";
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal"
 
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
 
@@ -9,7 +9,7 @@ export default function Speak() {
   return (
     <div className={styles.speak_wrapper}>
       <div className={styles.speak_content}>
-        <Fade left>
+        <Fade direction="left" triggerOnce>
         <p className={styles.speak_text}>
           &ldquo;O trabalho da equipe de desenvolvimento de software superou
           nossas expectativas. Eles entenderam completamente nossas necessidades
@@ -18,7 +18,7 @@ export default function Speak() {
           fortemente seus serviços!&quot;
         </p>
         </Fade>
-        <Fade left delay={100}>
+        <Fade direction="left" delay={100} triggerOnce>
         <p className={styles.speak_author}>- Cliente Satisfeito</p>
         </Fade>
       </div>

@@ -2,8 +2,7 @@
 import styles from "./Info.module.scss";
 import { Space_Grotesk } from "next/font/google";
 import { CheckCircle } from "@phosphor-icons/react";
-import { useRef } from "react";
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal"
 
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
 
@@ -13,7 +12,7 @@ export default function Info() {
 
   return (
     <div className={styles.info_wrapper}>
-      <Fade up>
+      <Fade direction="up" triggerOnce>
       <h3 className={styles.info_title}>
         Na nossa empresa, acreditamos no <b>poder da tecnologia</b> para
         impulsionar o <b>sucesso dos negócios.</b> Nossas soluções de software
@@ -23,7 +22,7 @@ export default function Info() {
       </h3>
       </Fade>
       <div  className={styles.list_wrapper}>
-      <Fade up>
+      <Fade direction="up" triggerOnce>
         <div className={styles.info_list}>
           <span className={styles.list_item}>
             <CheckCircle
@@ -57,7 +56,7 @@ export default function Info() {
           </span>
         </div>
         </Fade>
-        <Fade up delay={100}>
+        <Fade direction="up" delay={100} triggerOnce>
         <div className={styles.info_list}>
           <span className={styles.list_item}>
             <CheckCircle
