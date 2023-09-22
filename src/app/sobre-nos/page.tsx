@@ -1,4 +1,4 @@
-import Hero from '@/components/Hero Section/Hero'
+import Hero from '@/components/Home Page/Hero Section/Hero'
 import Image from 'next/image'
 
 import type { Metadata } from 'next'
