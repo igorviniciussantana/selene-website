@@ -9,8 +9,6 @@ const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export default function Hero() {
 
-
-
   return (
     <div className={styles.hero_wrapper}>
       <div className={styles.hero_content}>
@@ -27,6 +25,7 @@ export default function Hero() {
           inovadoras
         </h2>
         </Fade>
+        <Fade direction="up" triggerOnce delay={300}>
         <p className={styles.hero_description}>
           Bem-vindo à nossa empresa de desenvolvimento de software! Nós somos
           especialistas em transformar ideias em soluções tecnológicas de ponta.
@@ -35,19 +34,24 @@ export default function Hero() {
           equipe está pronta para ajudar você a atingir seus objetivos e superar
           as expectativas do mercado.
         </p>
+        </Fade>
 
+        <Fade direction="up" triggerOnce delay={400}>
         <button
           className={`${styles.primary_button} ${space_grotesk.className}`}
         
         >
           Transforme suas ideias em realidade hoje mesmo!
         </button>
+        </Fade>
+        <Fade direction="up" triggerOnce delay={500}>
         <button
           className={`${styles.secondary_button} ${space_grotesk.className}`}
          
         >
           Entre em contato para uma consulta gratuita.
         </button>
+        </Fade>
       </div>
       <img
         src="hero-img.png"
