@@ -1,7 +1,6 @@
 @import "@/styles/variables.scss";
 
 @media screen and (max-width: 414px) {
-
   .speak_wrapper {
     min-width: none;
     height: 70vh;
@@ -23,12 +22,37 @@
       }
     }
 
-    .chat{
+    .chat {
       display: none;
     }
   }
 }
-@media screen and (min-width: 414px) and (max-width: 920px) {
+@media screen and (min-width: 415px) and (max-width: 920px) {
+  .speak_wrapper {
+    min-width: none;
+    height: 70vh;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+
+    .speak_content {
+      .speak_text {
+        font-size: 1.2rem;
+        text-align: justify;
+        font-weight: 500;
+      }
+
+      .speak_author {
+        color: $purple;
+        font-size: 1rem;
+        margin-top: 1rem;
+      }
+    }
+
+    .chat {
+      display: none;
+    }
+  }
 }
 
 @media screen and (min-width: 920px) {

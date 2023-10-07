@@ -12,6 +12,7 @@ export default function Menu() {
       <img
         src="icons/menus.svg"
         id={styles.menu_button}
+        alt="Logo da Empresa Selene Tecnologia"
         onClick={(e) => setIsMenuOpen(!isMenuOpen)}
       />
       <img src="logo.svg" id={styles.menu_logo} />

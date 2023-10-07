@@ -84,6 +84,86 @@
   }
 }
 @media screen and (min-width: 414px) and (max-width: 920px) {
+  .hero_img{
+    display: none;
+  }
+
+  .hero_wrapper {
+   
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+
+    .hero_content {
+      
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+      margin-top: 1rem;
+      
+      .hero_title{
+        color: $purple;
+        margin-bottom: 0.5rem;
+        font-size: 1.4rem;
+      }
+
+      .hero_subtitle{
+        color: $dark;
+        margin-bottom: 1rem;
+        font-weight: 500;
+        font-size: 1.1rem;
+      }
+
+      .hero_description{
+        color: $dark;
+        margin-bottom: 1rem;
+        font-size: 0.75rem;
+        
+      }
+
+      .primary_button{
+        width: 100%;
+        padding: 1rem 1rem;
+        border: none;
+        background-color: $purple;
+        color: $light;
+        border-radius: 0.25rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: .5s;
+        margin-bottom: 0.5rem;
+
+        &:hover{
+          transform: scale(1.03);
+          transition: .5s;
+        }
+
+        
+      }
+
+      .secondary_button{
+        width: 100%;
+        padding: 0.75rem 1rem;
+        border: 1.5px solid $purple;
+        background-color: transparent;
+        color: $purple;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        transition: .5s;
+
+        &:hover{
+          transform: scale(1.03);
+          transition: .5s;
+        }
+
+        
+      }
+    }
+
+    .hero_img{
+      width: 45%;
+    }
+  }
 }
 
 @media screen and (min-width: 920px) {
