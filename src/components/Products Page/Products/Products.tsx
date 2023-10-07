@@ -44,6 +44,7 @@ export default function Products() {
               data-aos="fade-up"
               data-aos-delay={index * 100}
               data-aos-once="true"
+              key={service.name}
             >
               <h3>{index + 1}</h3>
               <h3>{service.name}</h3>
