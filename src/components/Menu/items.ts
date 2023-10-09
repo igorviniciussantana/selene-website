@@ -12,6 +12,10 @@ export const MenuItems = [
     url: "/servicos",
   },
   {
+    name: "processo de desenvolvimento",
+    url: "/processo",
+  },
+  {
     name: "portfólio",
     url: "/portfolio",
   },
