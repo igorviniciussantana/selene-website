@@ -4,7 +4,7 @@
   .menu_wrapper {
     width: 100%;
     min-height: 8vh;
-    padding: 1rem;
+    padding: 2rem;
 
     display: grid;
     grid-template-columns: 3;
@@ -19,7 +19,7 @@
     #menu_button {
       grid-column-start: 1;
       grid-column-end: 2;
-      margin: auto;
+      
 
       height: 1.5rem;
       
