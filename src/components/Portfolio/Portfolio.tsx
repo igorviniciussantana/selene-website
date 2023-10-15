@@ -1,10 +1,8 @@
 "use client";
-import Link from "next/link";
 import styles from "./Portfolio.module.scss";
 import { Space_Grotesk } from "next/font/google";
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
 import { Projects } from "./projects";
-import BG from "../../../public/background2.png";
 
 export default function Portfolio() {
   return (
