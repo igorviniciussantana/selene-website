@@ -4,11 +4,11 @@ import styles from "./AboutUs.module.scss";
 import { Space_Grotesk } from "next/font/google";
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
 import Lottie from "lottie-react";
-import techAnimation from "./../../../../public/animations/tech.json";
-import handshakeAnimation from "./../../../../public/animations/handshake.json";
-import developAnimation from "./../../../../public/animations/develop.json";
-import businessAnimation from "./../../../../public/animations/business.json";
-import supportAnimation from "./../../../../public/animations/support.json";
+import techAnimation from "../../../public/animations/tech.json";
+import handshakeAnimation from "../../../public/animations/handshake.json";
+import developAnimation from "../../../public/animations/develop.json";
+import businessAnimation from "../../../public/animations/business.json";
+import supportAnimation from "../../../public/animations/support.json";
 
 
 
