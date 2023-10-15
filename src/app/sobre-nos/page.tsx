@@ -7,7 +7,7 @@ import type { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Sobre Nós - Selene Tecnologia',
   description: 'Conheça mais sobre nossa história e os valores da nossa empresa.',
-  icons: './icon.svg',
+  icons: '/icon.svg',
   category: 'Tecnologia',
   creator: 'Selene',
   keywords: ['tecnologia', 'desenvolvimento web', 'desenvolvimento']

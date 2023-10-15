@@ -8,7 +8,7 @@ import Speak from '@/components/Home Page/Speak Section/Speak'
 export const metadata: Metadata = {
   title: 'Página Inicial - Selene Tecnologia',
   description: 'Página Inicial Selene',
-  icons: './icon.svg',
+  icons: '/icon.svg',
   category: 'Tecnologia',
   creator: 'Selene',
   keywords: ['tecnologia', 'desenvolvimento web', 'desenvolvimento']

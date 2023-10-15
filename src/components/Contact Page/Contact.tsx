@@ -25,7 +25,7 @@ export default function Contact() {
           Conheça soluções personalizadas para sua empresa e deixe a Selene
           guiar seus processos tecnológicos!
         </p>
-
+        <Link href="https://api.whatsapp.com/send?phone=555181877186" target="_blank">
         <button
           className={`${styles.primary_button} ${space_grotesk.className}`}
           data-aos="fade-up"
@@ -34,7 +34,7 @@ export default function Contact() {
         >
           <img src="/whatsapp-light.svg" className={styles.icon} />
           Entre em Contato
-        </button>
+        </button></Link>
       </div>
       <div className={styles.contact_card}>
         <h1>INFORMAÇÕES</h1>
