@@ -4,8 +4,10 @@ import styles from "./Process.module.scss";
 import { Space_Grotesk } from "next/font/google";
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
 import { Services } from "./processes";
+import { useRouter } from 'next/navigation'
 
 export default function Process() {
+  const router = useRouter()
   return (
     <div>
       <div className={styles.process_wrapper}>
@@ -70,6 +72,7 @@ export default function Process() {
           data-aos="fade-up"
           data-aos-delay="200"
           data-aos-once="true"
+          onClick={() => router.push('/contato')}
         >
           Transforme suas ideias em realidade hoje mesmo!
         </button>

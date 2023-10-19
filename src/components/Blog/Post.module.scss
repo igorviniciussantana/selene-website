@@ -1,0 +1,125 @@
+@import "@/styles/variables.scss";
+
+
+@media screen and (max-width: 414px){
+    .post_wrapper{
+        width: 100%;
+        min-height: 80vh;
+        padding: 3rem 2rem;
+        display: flex;
+        flex-direction: column;
+    
+        .post_cover{
+            width: 100%;
+            height: 30vh;
+            border-radius: 1rem;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 2rem;
+        }
+    
+        .post_title{
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+        }
+    
+        .post_date{
+    
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            margin-bottom: 2rem;
+            img{
+                width: 1.5rem;
+            }
+        }
+    
+        .post_text{
+            margin-bottom: 10rem;
+            text-align: justify;
+        }
+    }
+
+}
+
+@media screen and (min-width: 414px) and (max-width: 920px){
+  
+    .post_wrapper{
+        width: 100%;
+        min-height: 80vh;
+        padding: 3rem 2rem;
+        display: flex;
+        flex-direction: column;
+    
+        .post_cover{
+            width: 100%;
+            height: 30vh;
+            border-radius: 1rem;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 2rem;
+        }
+    
+        .post_title{
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+        }
+    
+        .post_date{
+    
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            margin-bottom: 2rem;
+            img{
+                width: 1.5rem;
+            }
+        }
+    
+        .post_text{
+            margin-bottom: 10rem;
+            text-align: justify;
+        }
+    }
+}
+
+
+@media screen and (min-width: 920px) {
+.post_wrapper{
+    width: 100%;
+    min-height: 80vh;
+    padding: 3rem 6rem;
+    display: flex;
+    flex-direction: column;
+
+    .post_cover{
+        width: 100%;
+        height: 30vh;
+        border-radius: 1rem;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 2rem;
+    }
+
+    .post_title{
+        font-size: 3rem;
+        line-height: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .post_date{
+
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        margin-bottom: 2rem;
+        img{
+            width: 1.5rem;
+        }
+    }
+
+    .post_text{
+        margin-bottom: 10rem;
+    }
+}
+}

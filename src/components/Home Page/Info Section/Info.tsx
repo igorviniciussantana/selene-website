@@ -2,12 +2,13 @@
 import styles from "./Info.module.scss";
 import { Space_Grotesk } from "next/font/google";
 import { CheckCircle } from "@phosphor-icons/react";
+import { useRouter } from 'next/navigation'
 
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export default function Info() {
 
-
+  const router = useRouter()
 
   return (
     <div className={styles.info_wrapper}>
@@ -97,7 +98,7 @@ export default function Info() {
       </div>
      
       <button className={`${styles.primary_button} ${space_grotesk.className}`} data-aos="fade-up"
-            data-aos-delay="200" data-aos-once="true">
+            data-aos-delay="200" data-aos-once="true" onClick={() => router.push('/contato')}>
       
         Transforme suas ideias em realidade hoje mesmo!
         

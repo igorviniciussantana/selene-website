@@ -4,8 +4,11 @@ import styles from "./Products.module.scss";
 import { Space_Grotesk } from "next/font/google";
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
 import { Services } from "./services";
+import { useRouter } from 'next/navigation'
+
 
 export default function Products() {
+  const router = useRouter()
   return (
     <div>
       <div className={styles.products_wrapper}>
@@ -64,7 +67,7 @@ export default function Products() {
         </h1>
 
         <button className={`${styles.primary_button} ${space_grotesk.className}`} data-aos="fade-up"
-            data-aos-delay="200" data-aos-once="true">
+            data-aos-delay="200" data-aos-once="true" onClick={() => router.push('/contato')}>
       
         Transforme suas ideias em realidade hoje mesmo!
         

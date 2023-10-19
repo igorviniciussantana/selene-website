@@ -2,10 +2,15 @@
 import Link from "next/link";
 import styles from "./Hero.module.scss";
 import { Space_Grotesk } from "next/font/google";
+import { useRouter } from 'next/navigation'
+
 
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export default function Hero() {
+
+  const router = useRouter()
+
   return (
     <div className={styles.hero_wrapper}>
       <div className={styles.hero_content}>
@@ -47,6 +52,7 @@ export default function Hero() {
           data-aos="fade-up"
           data-aos-delay="300"
           data-aos-once="true"
+          onClick={() => router.push('/contato')}
         >
           Transforme suas ideias em realidade hoje mesmo!
         </button>

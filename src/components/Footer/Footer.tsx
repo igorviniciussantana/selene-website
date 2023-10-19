@@ -10,7 +10,7 @@ export default function Footer() {
       <div className={styles.footer_content}>
 
         <div className={styles.footer_left}>
-          <img src="logo-light.svg" className={styles.footer_logo} />
+          <img src="/logo-light.svg" className={styles.footer_logo} />
           <p>
             Potencialize sua empresa com soluções de software sob medida e
             inovadoras

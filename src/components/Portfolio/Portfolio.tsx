@@ -3,8 +3,10 @@ import styles from "./Portfolio.module.scss";
 import { Space_Grotesk } from "next/font/google";
 const space_grotesk = Space_Grotesk({ subsets: ["latin"] });
 import { Projects } from "./projects";
+import { useRouter } from "next/navigation";
 
 export default function Portfolio() {
+  const router = useRouter()
   return (
     <div>
       <div className={styles.portfolio_wrapper}>
@@ -88,6 +90,7 @@ export default function Portfolio() {
           data-aos="fade-up"
           data-aos-delay="200"
           data-aos-once="true"
+          onClick={() => router.push('/contato')}
         >
           Transforme suas ideias em realidade hoje mesmo!
         </button>

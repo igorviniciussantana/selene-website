@@ -10,15 +10,16 @@ export default function Menu() {
   return (
     <div className={styles.menu_wrapper}>
       <img
-        src="icons/menus.svg"
+        src="/icons/menus.svg"
         id={styles.menu_button}
         alt="Logo da Empresa Selene Tecnologia"
         onClick={(e) => setIsMenuOpen(!isMenuOpen)}
       />
-      <img src="logo.svg" id={styles.menu_logo} />
-
+     
+      <img src="/logo.svg" id={styles.menu_logo} />
+     
       <img
-        src="icons/menus.svg"
+        src="/icons/menus.svg"
         id={styles.menu_hidden}
       />
 
@@ -27,7 +28,7 @@ export default function Menu() {
         style={{ left: isMenuOpen ? 0 : "-100%", transition: ".5s" }}
       >
         <img
-          src="icons/cross.svg"
+          src="/icons/cross.svg"
           className={styles.menu_close}
           onClick={(e) => setIsMenuOpen(!isMenuOpen)}
         />
