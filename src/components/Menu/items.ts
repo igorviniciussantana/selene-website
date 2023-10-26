@@ -16,10 +16,6 @@ export const MenuItems = [
     url: "/processo",
   },
   {
-    name: "portfólio",
-    url: "/portfolio",
-  },
-  {
     name: "blog",
     url: "/blog",
   },

@@ -69,7 +69,7 @@ export default function Products() {
         <button className={`${styles.primary_button} ${space_grotesk.className}`} data-aos="fade-up"
             data-aos-delay="200" data-aos-once="true" onClick={() => router.push('/contato')}>
       
-        Transforme suas ideias em realidade hoje mesmo!
+        Transforme suas ideias em realidade!
         
       </button>
       </div>

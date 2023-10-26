@@ -39,8 +39,6 @@ export default function Hero() {
           data-aos-delay="200"
           data-aos-once="true"
         >
-          Bem-vindo à nossa empresa de desenvolvimento de software! Nós somos
-          especialistas em transformar ideias em soluções tecnológicas de ponta.
           Se você está procurando impulsionar seu negócio, melhorar seus
           processos e aumentar produtividade, você está no lugar certo. Nossa
           equipe está pronta para ajudar você a atingir seus objetivos e superar
@@ -54,7 +52,7 @@ export default function Hero() {
           data-aos-once="true"
           onClick={() => router.push('/contato')}
         >
-          Transforme suas ideias em realidade hoje mesmo!
+          Transforme suas ideias em realidade!
         </button>
 
         <button
@@ -63,7 +61,7 @@ export default function Hero() {
           data-aos-delay="400"
           data-aos-once="true"
         >
-          Entre em contato para uma consulta gratuita.
+          Obter consulta gratuita.
         </button>
       </div>
       <img

@@ -92,7 +92,7 @@ export default function Portfolio() {
           data-aos-once="true"
           onClick={() => router.push('/contato')}
         >
-          Transforme suas ideias em realidade hoje mesmo!
+          Transforme suas ideias em realidade!
         </button>
       </div>
     </div>

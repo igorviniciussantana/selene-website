@@ -1,15 +1,14 @@
 @import "@/styles/variables.scss";
 
 @media screen and (max-width: 414px) {
-  
-  .hero_img{
-    display: none;
-  }
+
 
   .hero_wrapper {
    
     display: flex;
     align-items: center;
+    flex-direction: column;
+    width: 100%;
     min-height: 80vh;
 
     .hero_content {
@@ -83,7 +82,7 @@
     }
   }
 }
-@media screen and (min-width: 414px) and (max-width: 920px) {
+@media screen and (min-width: 415px) and (max-width: 920px) {
   .hero_img{
     display: none;
   }

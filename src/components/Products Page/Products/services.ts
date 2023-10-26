@@ -12,7 +12,7 @@ export const Services = [
   {
     name: "Desenvolvimento de Aplicações Web",
     description:
-      "Nossa equipe é especializada no desenvolvimento de aplicações web personalizadas que atendem às necessidades únicas do seu negócio. Criamos soluções web poderosas, intuitivas e escaláveis, permitindo que você alcance seu público-alvo de forma eficaz e impulsione sua presença online. Utilizando as mais recentes tecnologias e frameworks, nossos desenvolvedores criarão uma aplicação web robusta e adaptada às suas especificações, oferecendo uma experiência de usuário excepcional e funcionalidades avançadas. Seja para uma plataforma de comércio eletrônico, um sistema de gerenciamento de conteúdo ou qualquer outra necessidade, estamos prontos para transformar sua visão em uma aplicação web de alto desempenho.",
+    "Soluções web poderosas, intuitivas e escaláveis, permitindo que você alcance seu público-alvo de forma eficaz e impulsione sua presença online. Utilizando as mais recentes tecnologias e frameworks, nossos desenvolvedores criarão uma aplicação web robusta e adaptada às suas especificações, oferecendo uma experiência de usuário excepcional e funcionalidades avançadas, uma aplicação web de alto desempenho."
   },
   {
     name: "Integração de Sistemas",
