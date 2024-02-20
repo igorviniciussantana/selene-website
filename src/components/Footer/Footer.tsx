@@ -38,11 +38,11 @@ export default function Footer() {
             <ul>
               <li>
               <img src="/email.svg" className={styles.li_icon} />
-                <p className={styles.contact}>selene@gmail.com</p>
+                <p className={styles.contact}>atendimento@selenetecnologia.com</p>
                 </li>
                 <li>
               <img src="/whatsapp.svg" className={styles.li_icon} />
-                <p className={styles.contact}>+55 51 8187-7186</p>
+                <p className={styles.contact}>+55 21 97372-9696</p>
                 </li>
             </ul>
           </div>
