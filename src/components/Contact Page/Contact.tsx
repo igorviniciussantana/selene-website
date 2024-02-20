@@ -40,12 +40,12 @@ export default function Contact() {
         <h1>INFORMAÇÕES</h1>
         <div className={styles.contact}>
           <img src="/whatsapp-light.svg" className={styles.icon} />
-          <p className={styles.tel}>+55 51 8187-7186</p>
+          <p className={styles.tel}>+55 21 97372-9696</p>
         </div>
 
         <div className={styles.contact}>
           <img src="/email-light.svg" className={styles.icon} />
-          <p className={styles.tel}>selene@gmail.com</p>
+          <p className={styles.tel}>atendimento@selenetecnologia.com</p>
         </div>
 
         <Link href="https://instagram.com/selenetecnologia" target="_blank">
