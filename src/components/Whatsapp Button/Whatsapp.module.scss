@@ -1,0 +1,88 @@
+@import "@/styles/variables.scss";
+
+@media screen and (max-width: 478px) {
+    .whatsapp_wrapper {
+        position: fixed;
+        bottom: 32px;
+        left: 50%;
+        transform: translate(-50%, 0);
+        width: max-content;
+        background-color: rgb(70, 206, 77);
+        color: white;
+        display: flex;
+        border-radius: 9999px;
+        align-items: center;
+        padding: 16px 32px;
+        gap: 12px;
+        z-index: 99;
+        transition: .5s;
+
+
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+            transition: .5s;
+        }
+
+        img {
+            width: 32px;
+        }
+    }
+}
+
+@media screen and (min-width: 478px) and (max-width: 920px) {
+    .whatsapp_wrapper {
+        position: fixed;
+        bottom: 32px;
+        right: 32px;
+        background-color: rgb(70, 206, 77);
+        color: white;
+        display: flex;
+        border-radius: 9999px;
+        align-items: center;
+        padding: 16px 32px;
+        gap: 12px;
+        z-index: 99;
+        transition: .5s;
+
+
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+            transition: .5s;
+        }
+
+        img {
+            width: 32px;
+        }
+    }
+
+}
+
+@media screen and (min-width: 920px) {
+    .whatsapp_wrapper {
+        position: fixed;
+        bottom: 32px;
+        right: 32px;
+        background-color: rgb(70, 206, 77);
+        color: white;
+        display: flex;
+        border-radius: 9999px;
+        align-items: center;
+        padding: 16px 32px;
+        gap: 12px;
+        z-index: 99;
+        transition: .5s;
+
+
+        &:hover {
+            transform: scale(1.1);
+            cursor: pointer;
+            transition: .5s;
+        }
+
+        img {
+            width: 32px;
+        }
+    }
+}

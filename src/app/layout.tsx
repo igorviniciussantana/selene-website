@@ -9,6 +9,8 @@ import 'aos/dist/aos.css';
 import Head from "next/head";
 import Script from "next/script"
 import { GoogleAnalyticsTracking } from "@/components/Google Tag Manager/GoogleTagManager";
+import Whatsapp from "@/components/Whatsapp Button/Whatsapp";
+
 
 const space_grtsk = Space_Grotesk({ subsets: ["latin"] });
 
@@ -28,8 +30,8 @@ export default function RootLayout({
     <html lang="pt-br">
 
       <body className={space_grtsk.className}>
+<Whatsapp />
         <GoogleAnalyticsTracking />
-
         <Menu />
         {children}
         <Footer />
